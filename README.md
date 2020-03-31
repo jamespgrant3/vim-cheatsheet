@@ -178,3 +178,18 @@
 - **`zE`** deletes all folds.
 - **`[z`** move to start of open fold.
 - **`]z`** move to end of open fold.
+
+
+# Plugins
+
+## vim-bookmarks
+- **`mm`** Add/remove bookmark at current line
+- **`mi`** Add/edit/remove annotation at current line
+- **`mn`** Jump to next bookmark in buffer
+- **`mp`** Jump to previous bookmark in buffer
+- **`ma`** Show all bookmarks (toggle)
+- **`mc`** Clear bookmarks in current buffer only
+- **`mx`** Clear bookmarks in all buffers
+- **`[count]mkk`** Move up bookmark at current line
+- **`[count]mjj`** Move down bookmark at current line
+- **`[count]mg`** Move bookmark at current line to another line

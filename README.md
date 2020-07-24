@@ -45,6 +45,7 @@
 - **`Ctrl + u`** - move back 1/2 a screen
 
 ## Insert mode - inserting/appending text
+- **`ctrl+o <command>`** - execute normal-mode command while inside insert-mode
 - **`i`** - insert before the cursor
 - **`I`** - insert at the beginning of the line
 - **`a`** - insert (append) after the cursor

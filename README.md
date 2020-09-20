@@ -50,7 +50,7 @@
 - **`g;`** - position of last edit inside a buffer
 
 ## Insert mode - inserting/appending text
-- **`ctrl+o <command>`** - execute normal-mode command while in insert-mode
+- **`Ctrl + o <command>`** - execute normal-mode command while in insert-mode
 - **`i`** - insert before the cursor
 - **`I`** - insert at the beginning of the line
 - **`a`** - insert (append) after the cursor

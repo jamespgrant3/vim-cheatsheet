@@ -162,8 +162,7 @@
 - **`:%s/bad/good/g`** - replace all bad with good throughout file
 - **`:%s/bad/good/gc`** - replace all bad with good throughout file with confirmations
 - **`:28s/bad/good/g`** - replace all bad with good on line 28
-- **`:6,11s/bad/good/g`** - replace all bad with goo in lines 6 to 11, including 6 and 11.
-
+- **`:6,11s/bad/good/g`** - replace all bad with goo in lines 6 to 11, including 6 and 11
 - **`:noh`** - remove highlighting of search matches
 
 ## Search in multiple files
@@ -173,32 +172,31 @@
 - **`:copen`** - open a window containing the list of matches
 
 ## Folding
-- **`zf#j`** creates a fold from the cursor down # lines.
-- **`zf/string`** creates a fold from the cursor to string.
-- **`zj`** moves the cursor to the next fold.
-- **`zk`** moves the cursor to the previous fold.
-- **`zo`** opens a fold at the cursor.
-- **`zO`** opens all folds at the cursor.
-- **`zm`** increases the foldlevel by one.
-- **`zM`** closes all open folds.
-- **`zr`** decreases the foldlevel by one.
-- **`zR`** decreases the foldlevel to zero — all folds will be open.
-- **`zd`** deletes the fold at the cursor.
-- **`zE`** deletes all folds.
-- **`[z`** move to start of open fold.
-- **`]z`** move to end of open fold.
-
+- **`zf#j`** - creates a fold from the cursor down # lines
+- **`zf/string`** - creates a fold from the cursor to string
+- **`zj`** - moves the cursor to the next fold
+- **`zk`** - moves the cursor to the previous fold
+- **`zo`** - opens a fold at the cursor
+- **`zO`** - opens all folds at the cursor
+- **`zm`** - increases the foldlevel by one
+- **`zM`** - closes all open folds
+- **`zr`** - decreases the foldlevel by one
+- **`zR`** - decreases the foldlevel to zero — all folds will be open
+- **`zd`** - deletes the fold at the cursor
+- **`zE`** - deletes all folds
+- **`[z`** - move to start of open fold
+- **`]z`** - move to end of open fold
 
 # Plugins
 
 ## vim-bookmarks
-- **`mm`** Add/remove bookmark at current line
-- **`mi`** Add/edit/remove annotation at current line
-- **`mn`** Jump to next bookmark in buffer
-- **`mp`** Jump to previous bookmark in buffer
-- **`ma`** Show all bookmarks (toggle)
-- **`mc`** Clear bookmarks in current buffer only
-- **`mx`** Clear bookmarks in all buffers
-- **`[count]mkk`** Move up bookmark at current line
-- **`[count]mjj`** Move down bookmark at current line
-- **`[count]mg`** Move bookmark at current line to another line
+- **`mm`** - add/remove bookmark at current line
+- **`mi`** - add/edit/remove annotation at current line
+- **`mn`** - jump to next bookmark in buffer
+- **`mp`** - jump to previous bookmark in buffer
+- **`ma`** - show all bookmarks (toggle)
+- **`mc`** - clear bookmarks in current buffer only
+- **`mx`** - clear bookmarks in all buffers
+- **`[count]mkk`** - move up bookmark at current line
+- **`[count]mjj`** - move down bookmark at current line
+- **`[count]mg`** - move bookmark at current line to another line

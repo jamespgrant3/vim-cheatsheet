@@ -159,8 +159,11 @@
 - **`\vpattern`** - 'very magic' pattern: non-alphanumeric characters are interpreted as special regex symbols (no escaping needed)
 - **`n`** - repeat search in same direction
 - **`N`** - repeat search in opposite direction
-- **`:%s/old/new/g`** - replace all old with new throughout file
-- **`:%s/old/new/gc`** - replace all old with new throughout file with confirmations
+- **`:%s/bad/good/g`** - replace all bad with good throughout file
+- **`:%s/bad/good/gc`** - replace all bad with good throughout file with confirmations
+- **`:28s/bad/good/g`** - replace all bad with good on line 28
+- **`:6,11s/bad/good/g`** - replace all bad with goo in lines 6 to 11, including 6 and 11.
+
 - **`:noh`** - remove highlighting of search matches
 
 ## Search in multiple files

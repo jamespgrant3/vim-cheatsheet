@@ -93,6 +93,11 @@
 - **`u`** - undo
 - **`Ctrl + r`** - redo
 - **`.`** - repeat last command
+- **`:sort`** - sort all lines
+- **`:sort!`** - sort in reverse
+- **`:sort u`** - removes dupes and sort
+- **`:sort i`** - ignore case
+- **`:sort n`** - sort numerically
 
 ## Marking text (visual mode)
 - **`v`** - start visual mode, mark lines, then do a command (like y-yank)

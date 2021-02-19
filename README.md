@@ -211,6 +211,7 @@
 
 ## tmux window navigation
 - **`<window number>** - to toggle between windows 
+- **`,** - to rename a window
 - **`h** - split window horizontal
 - **`v** - split window vertical
 - **`c** - open a new window

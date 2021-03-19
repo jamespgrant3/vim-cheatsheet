@@ -209,11 +209,12 @@
 ## fugitive
 - **\gs** - to show a window that lists changes
 - **\gb** - to show blame
-- **\gc** - to commit
+- **\gc** - to commit staged changes
 - **\gd** - to diff 
 - **\gl** - to show log 
-- **+** - after running `\gs`, this will toggle showing file changes
-- **-** - after running `\gs`, this will toggle staging/unstaging a file
+- **+** - after running `\gs`, and the cursor over a file, this will toggle showing file changes
+- **-** - after running `\gs`, and the cursor over a file, this will toggle staging/unstaging a file
+- **-** - after running `\gs`, and the cursor over a commit, this will prompt to push changes to the remote
 
 ## tmux general shortcut keys
 - **`k** - to clear the terminal window 

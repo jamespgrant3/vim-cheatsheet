@@ -211,10 +211,12 @@
 
 ## tmux window navigation
 - **`<window number>** - to toggle between windows 
+- **`w** - to toggle between tmux sessions
 - **`,** - to rename a window
 - **`h** - split window horizontal
 - **`v** - split window vertical
 - **`c** - open a new window
+- **`t** - show current time
 - **`xy** - close the current window
 - **`\<right arrow\>** - move to the window to the right of the current window
 - **`\<left arrow\>** - move to the window to the left of the current window

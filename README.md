@@ -212,8 +212,11 @@
 - **\gc** - to commit staged changes
 - **\gd** - to diff 
 - **\gl** - to show log 
+- **cb\<space\>** - after running `\gs`, allows list, create, or delete branches
+- **co\<space\>** - after running `\gs`, allows for switching branches
 - **+** - after running `\gs`, and the cursor over a file, this will toggle showing file changes
 - **-** - after running `\gs`, and the cursor over a file, this will toggle staging/unstaging a file
+- **X** - after running `\gs`, and the cursor over a file, this will discard changes of a file
 - **-** - after running `\gs`, and the cursor over a commit, this will prompt to push changes to the remote
 
 ## tmux general shortcut keys

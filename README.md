@@ -206,6 +206,15 @@
 - **`[count]mjj`** - move down bookmark at current line
 - **`[count]mg`** - move bookmark at current line to another line
 
+## fugitive
+- **\gs** - to show a window that lists changes
+- **\gb** - to show blame
+- **\gc** - to commit
+- **\gd** - to diff 
+- **\gl** - to show log 
+- **+** - after running `\gs`, this will toggle showing file changes
+- **-** - after running `\gs`, this will toggle staging/unstaging a file
+
 ## tmux general shortcut keys
 - **`k** - to clear the terminal window 
 

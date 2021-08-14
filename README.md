@@ -131,7 +131,7 @@
 - **`` y`a``** - yank text to position of mark A
 
 ## Macros
-- **`**qa**`** - record macro `a`
+- **`qa`** - record macro `a`
 - **`q`** - stop recording macro
 - **`@a`** - run macro `a`
 - **`@@`** - rerun last run macro
@@ -241,3 +241,5 @@
 - **C-l** - move to the pane to the right
 - **C-j** - move to the pane above
 - **C-k** - move to the pane below
+- **`{** move the current pane left
+- **`}** move the current pane right 

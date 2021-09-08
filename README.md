@@ -36,7 +36,9 @@
 - **`,`** - repeat previous f, t, F or T movement, backwards
 - **`}`** - jump to next paragraph (or function/block, when editing code)
 - **`{`** - jump to previous paragraph (or function/block, when editing code)
-- **`zz`** - center cursor on screen
+- **`zz`** - puts the current line at the center of the screen
+- **`zt`** - puts the current line at the top of the screen
+- **`zb`** - puts the current line at the bottom of the screen
 - **`Ctrl + e`** - move screen down one line (without moving cursor)
 - **`Ctrl + y`** - move screen up one line (without moving cursor)
 - **`Ctrl + b`** - move back one full screen

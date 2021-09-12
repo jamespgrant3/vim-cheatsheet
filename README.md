@@ -70,6 +70,7 @@
 - **`:ls`** - list all open buffers
 - **`:sp file`** - open a file in a new buffer and split window
 - **`:vsp file`** - open a file in a new buffer and vertically split window
+- **`Ctrl + wo`** - toggle maximizing a split
 - **`Ctrl + ws`** - split window
 - **`Ctrl + ww`** - switch windows
 - **`Ctrl + wq`** - quit a window

@@ -49,7 +49,10 @@
 - **`]M`** - end of next
 - **`[m`** - beginning of previous
 - **`[M`** - end of previous
-- **`g;`** - position of last edit inside a buffer
+- **`g;`** - jump to the last change you made
+- **`g,`** - jump back forward through the change list
+- **`&`** - repeat the last substitution on the current line
+- **`g&`** - repeat the last substitution on the all lines
 
 ## Insert mode - inserting/appending text
 - **`Ctrl + o <command>`** - execute normal-mode command while in insert-mode
@@ -84,16 +87,21 @@
 - **`r`** - replace a single character
 - **`J`** - join line below to the current one with one space in between
 - **`gJ`** - join line below to the current one without space in between
+- **`gUw`** - uppercase until end of word
+- **`gUU`** - uppercase entire line
+- **`gu$`** - lowercase until the end of the line
 - **`gwip`** - reflow paragraph
 - **`cc`** - change (replace) entire line
 - **`C`** - change (replace) to the end of the line
 - **`c$`** - change (replace) to the end of the line
 - **`ciw`** - change (replace) entire word
 - **`cw`** - change (replace) to the end of the word
+- **`dap`** - delete the whole paragraph
 - **`s`** - delete character and substitute text
 - **`S`** - delete line and substitute text (same as cc)
-- **`xp`** - transpose two letters (delete and paste)
 - **`u`** - undo
+- **`vaw`** - visually select word
+- **`xp`** - transpose two letters (delete and paste)
 - **`Ctrl + r`** - redo
 - **`.`** - repeat last command
 - **`:sort`** - sort all lines
@@ -180,10 +188,12 @@
 - **`:copen`** - open a window containing the list of matches
 
 ## Folding
+- **`zc`** - close a fold at the cursor
 - **`zf#j`** - creates a fold from the cursor down # lines
 - **`zf/string`** - creates a fold from the cursor to string
 - **`zj`** - moves the cursor to the next fold
 - **`zk`** - moves the cursor to the previous fold
+- **`zi`** - toggle folding entirely
 - **`zo`** - opens a fold at the cursor
 - **`zO`** - opens all folds at the cursor
 - **`zm`** - increases the foldlevel by one
@@ -198,16 +208,15 @@
 # Plugins
 
 ## vim-bookmarks
-- **`mm`** - add/remove bookmark at current line
-- **`mi`** - add/edit/remove annotation at current line
-- **`mn`** - jump to next bookmark in buffer
-- **`mp`** - jump to previous bookmark in buffer
-- **`ma`** - show all bookmarks (toggle)
-- **`mc`** - clear bookmarks in current buffer only
-- **`mx`** - clear bookmarks in all buffers
-- **`[count]mkk`** - move up bookmark at current line
-- **`[count]mjj`** - move down bookmark at current line
-- **`[count]mg`** - move bookmark at current line to another line
+- **`<leader><leader>`** - add/remove bookmark at current line
+- **`<leader>ba`** - add annotation at current line
+- **`<leader>bsa`** - show all bookmarks (toggle)
+- **`<leader>bn`** - jump to next bookmark in buffer
+- **`<leader>bp`** - jump to previous bookmark in buffer
+- **`<leader>bca`** - clear all bookmarks
+- **`<leader>bmu`** - move up bookmark at current line
+- **`<leader>bmd`** - move down bookmark at current line
+- **`<leader>bmt`** - move bookmark at current line to another line
 
 ## fugitive
 - **\gs** - to show a window that lists changes
@@ -232,7 +241,6 @@
 - **`h** - split window horizontal
 - **`v** - split window vertical
 - **`c** - open a new window
-- **`t** - open a new window
 - **`xy** - close the current window
 - **`\<right arrow\>** - move to the window to the right of the current window
 - **`\<left arrow\>** - move to the window to the left of the current window

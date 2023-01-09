@@ -1,12 +1,12 @@
 # vim-cheatsheet
 
-## Global
+## global
 - **`:help`** keyword - open help for keyword
 - **`:saveas file`** - save file as
 - **`:close`** - close current pane
 - **`K`** - open man page for word under the cursor
 
-## Cursor movement
+## cursor movement
 - **`h`** - move cursor left
 - **`j`** - move cursor down
 - **`k`** - move cursor up
@@ -54,7 +54,7 @@
 - **`&`** - repeat the last substitution on the current line
 - **`g&`** - repeat the last substitution on the all lines
 
-## Insert mode - inserting/appending text
+## insert mode
 - **`Ctrl + o <command>`** - execute normal-mode command while in insert-mode
 - **`i`** - insert before the cursor
 - **`I`** - insert at the beginning of the line
@@ -65,7 +65,7 @@
 - **`ea`** - insert (append) at the end of the word
 - **`Esc`** - exit insert mode
 
-## Working with multiple files
+## working with multiple files
 - **`:e file`** - edit a file in a new buffer
 - **`:bnext`** or  **`:bn`** - go to the next buffer
 - **`:bprev`**  or  **`:bp`** - go to the previous buffer
@@ -83,7 +83,7 @@
 - **`Ctrl + wj`** - move cursor to the window below (horizontal split)
 - **`Ctrl + wk`** - move cursor to the window above (horizontal split)
 
-## Editing
+## editing
 - **`r`** - replace a single character
 - **`J`** - join line below to the current one with one space in between
 - **`gJ`** - join line below to the current one without space in between
@@ -110,9 +110,11 @@
 - **`:sort i`** - ignore case
 - **`:sort n`** - sort numerically
 
-## Marking text (visual mode)
+## visual mode
 - **`v`** - start visual mode, mark lines, then do a command (like y-yank)
 - **`V`** - start line-wise visual mode
+- **`=`** - indent line(s) after selecting in visual mode
+- **`V%`** - select a block of text
 - **`o`** - move to other end of marked area
 - **`Ctrl + v`** - start visual block mode
 - **`O`** - move to other corner of block
@@ -122,32 +124,32 @@
 - **`ib`** - inner block with ()
 - **`iB`** - inner block with {}
 - **`Esc`** - exit visual mode
-
-## Visual commands
+- **``** - exit visual mode
 - **`>`** - shift text right
 - **`<`** - shift text left
 - **`y`** - yank (copy) marked text
 - **`d`** - delete marked text
 - **`~`** - switch case
 
-## Registers
+## registers
 - **`:reg`** - show registers content
 - **`"xy`** - yank into register `x`
 - **`"xp`** - paste contents of register `x`
 
-## Marks
+## marks
 - **`:marks`** - list of marks
 - **`ma`** - set current position for mark A
 - **`` `a``** - jump to position of mark A
 - **`` y`a``** - yank text to position of mark A
 
-## Macros
+## macros
 - **`qa`** - record macro `a`
 - **`q`** - stop recording macro
 - **`@a`** - run macro `a`
 - **`@@`** - rerun last run macro
 
-## Cut and paste
+## cut and paste
+- **`Vyp`** - copy line(s) of text
 - **`yy`** - yank (copy) a line
 - **`2yy`** - yank (copy) 2 lines
 - **`yw`** - yank (copy) the characters of the word from the cursor position to the start of the next word
@@ -161,7 +163,7 @@
 - **`d$`** - delete (cut) to the end of the line
 - **`x`** - delete (cut) character
 
-## Exiting
+## exiting
 - **`:w`** - write (save) the file, but don't exit
 - **`:w !sudo tee %`** - write out the current file using sudo
 - **`:wq`** or **`x`** or  **`ZZ`** - write (save) and quit
@@ -169,7 +171,7 @@
 - **`:q!`** or **`ZQ`** - quit and throw away unsaved changes
 - **`:wqa`** - write (save) and quit on all tabs
 
-## Search and replace
+## search and replace
 - **`/pattern`** - search for pattern
 - **`?pattern`** - search backward for pattern
 - **`\vpattern`** - 'very magic' pattern: non-alphanumeric characters are interpreted as special regex symbols (no escaping needed)
@@ -181,13 +183,13 @@
 - **`:6,11s/bad/good/g`** - replace all bad with goo in lines 6 to 11, including 6 and 11
 - **`:noh`** - remove highlighting of search matches
 
-## Search in multiple files
+## search in multiple files
 - **`` :vimgrep /pattern/ {`{file}`}``**- search for pattern in multiple files
 - **`:cn`** - jump to the next match
 - **`:cp`** - jump to the previous match
 - **`:copen`** - open a window containing the list of matches
 
-## Folding
+## folding
 - **`zc`** - close a fold at the cursor
 - **`zf#j`** - creates a fold from the cursor down # lines
 - **`zf/string`** - creates a fold from the cursor to string
@@ -205,7 +207,7 @@
 - **`[z`** - move to start of open fold
 - **`]z`** - move to end of open fold
 
-# Plugins
+# plugins
 
 ## vim-bookmarks
 - **`<leader><leader>`** - add/remove bookmark at current line
@@ -219,11 +221,11 @@
 - **`<leader>bmt`** - move bookmark at current line to another line
 
 ## fugitive
-- **\gs** - to show a window that lists changes
-- **\gb** - to show blame
-- **\gc** - to commit staged changes
-- **\gd** - to diff 
-- **\gl** - to show log 
+- **<leader>gs** - to show a window that lists changes
+- **<leader>gb** - to show blame
+- **<leader>gc** - to commit staged changes
+- **<leader>gd** - to diff
+- **<leader>gl** - to show log
 - **cb\<space\>** - after running `\gs`, allows list, create, or delete branches
 - **co\<space\>** - after running `\gs`, allows for switching branches
 - **+** - after running `\gs`, and the cursor over a file, this will toggle showing file changes
@@ -232,25 +234,25 @@
 - **-** - after running `\gs`, and the cursor over a commit, this will prompt to push changes to the remote
 
 ## tmux general shortcut keys
-- **`k** - to clear the terminal window 
+- **<leader>k** - to clear the terminal window
 
 ## tmux window navigation
-- **`\<window number\>** - to toggle between windows 
-- **`w** - to toggle between tmux sessions
-- **`,** - to rename a window
-- **`h** - split window horizontal
-- **`v** - split window vertical
-- **`c** - open a new window
-- **`xy** - close the current window
-- **`\<right arrow\>** - move to the window to the right of the current window
-- **`\<left arrow\>** - move to the window to the left of the current window
-- **`\<up arrow\>** - move to the window above the current window
-- **`\<down arrow\>** - move to the window below the current window
+- **<leader>\<window number\>** - to toggle between windows
+- **<leader>w** - to toggle between tmux sessions
+- **<leader>,** - to rename a window
+- **<leader>h** - split window horizontal
+- **<leader>v** - split window vertical
+- **<leader>c** - open a new window
+- **<leader>xy** - close the current window
+- **<leader>\<right arrow\>** - move to the window to the right of the current window
+- **<leader>\<left arrow\>** - move to the window to the left of the current window
+- **<leader>\<up arrow\>** - move to the window above the current window
+- **<leader>\<down arrow\>** - move to the window below the current window
 
 ## tmux pane navigation
 - **C-h** - move to the pane to the left
 - **C-l** - move to the pane to the right
 - **C-j** - move to the pane above
 - **C-k** - move to the pane below
-- **`{** move the current pane left
-- **`}** move the current pane right 
+- **<leader>{** move the current pane left
+- **<leader>}** move the current pane right

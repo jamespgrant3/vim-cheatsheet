@@ -118,11 +118,11 @@
 - **`o`** - move to other end of marked area
 - **`Ctrl + v`** - start visual block mode
 - **`O`** - move to other corner of block
-- **`aw`** - mark a word
-- **`ab`** - a block with ()
-- **`aB`** - a block with {}
-- **`ib`** - inner block with ()
-- **`iB`** - inner block with {}
+- **`vaw`** - mark a word
+- **`vab`** - a block with ()
+- **`vaB`** - a block with {}
+- **`vib`** - inner block with ()
+- **`viB`** - inner block with {}
 - **`Esc`** - exit visual mode
 - **``** - exit visual mode
 - **`>`** - shift text right
@@ -206,6 +206,12 @@
 - **`zE`** - deletes all folds
 - **`[z`** - move to start of open fold
 - **`]z`** - move to end of open fold
+
+## quickfix list
+- **`:copen`** - open the quickfix list
+- **`:ccl`** - close the quickfix list
+- **`:cn`** - go to next item in the list
+- **`:cp`** - go to previuos item in the list
 
 ## netrw
 - **`%`** - create a new file

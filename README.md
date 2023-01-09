@@ -207,7 +207,7 @@
 - **`[z`** - move to start of open fold
 - **`]z`** - move to end of open fold
 
-# netrw
+## netrw
 - **`%`** - create a new file
 - **`-`** - go up one directory
 - **`d`** - create a directory

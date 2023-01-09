@@ -1,4 +1,4 @@
-# vim-cheatsheet
+# vim cheatsheet
 
 ## global
 - **`:help`** keyword - open help for keyword

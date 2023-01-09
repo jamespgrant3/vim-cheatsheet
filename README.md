@@ -207,6 +207,18 @@
 - **`[z`** - move to start of open fold
 - **`]z`** - move to end of open fold
 
+# netrw
+- **`%`** - create a new file
+- **`-`** - go up one directory
+- **`d`** - create a directory
+- **`D`** - delete a file or directory
+- **`h`** - open the file in a horizontal split
+- **`p`** - preview a file
+- **`R`** - rename a file or directory
+- **`t`** - open the file in a new tab
+- **`qf`** - display file information
+- **`v`** - open the file in a vertical split
+
 # plugins
 
 ## vim-bookmarks

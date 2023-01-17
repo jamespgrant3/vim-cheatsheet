@@ -239,46 +239,46 @@
 - **`<leader>bmt`** - move bookmark at current line to another line
 
 ## fugitive
-- **<leader>gs** - to show a window that lists changes
-- **<leader>gb** - to show blame
-- **<leader>gc** - to commit staged changes
-- **<leader>gd** - to diff
-- **<leader>gl** - to show log
-- **cb\<space\>** - after running `\gs`, allows list, create, or delete branches
-- **co\<space\>** - after running `\gs`, allows for switching branches
-- **+** - after running `\gs`, and the cursor over a file, this will toggle showing file changes
-- **-** - after running `\gs`, and the cursor over a file, this will toggle staging/unstaging a file
-- **X** - after running `\gs`, and the cursor over a file, this will discard changes of a file
-- **-** - after running `\gs`, and the cursor over a commit, this will prompt to push changes to the remote
+- **`<leader>`gs** - to show a window that lists changes
+- **`<leader>`gb** - to show blame
+- **`<leader>`gc** - to commit staged changes
+- **`<leader>`gd** - to diff
+- **`<leader>`gl** - to show log
+- **`cb\<space\>`** - after running `\gs`, allows list, create, or delete branches
+- **`co\<space\>`** - after running `\gs`, allows for switching branches
+- **`+`** - after running `\gs`, and the cursor over a file, this will toggle showing file changes
+- **`-`** - after running `\gs`, and the cursor over a file, this will toggle staging/unstaging a file
+- **`X`** - after running `\gs`, and the cursor over a file, this will discard changes of a file
+- **`-`** - after running `\gs`, and the cursor over a commit, this will prompt to push changes to the remote
 
 ## tmux general shortcut keys
-- **<leader>k** - to clear the terminal window
+- **`<leader>k`** - to clear the terminal window
 
 ## tmux window navigation
-- **<leader>\<window number\>** - to toggle between windows
-- **<leader>w** - to toggle between tmux sessions
-- **<leader>,** - to rename a window
-- **<leader>h** - split window horizontal
-- **<leader>v** - split window vertical
-- **<leader>c** - open a new window
-- **<leader>xy** - close the current window
-- **<leader>\<right arrow\>** - move to the window to the right of the current window
-- **<leader>\<left arrow\>** - move to the window to the left of the current window
-- **<leader>\<up arrow\>** - move to the window above the current window
-- **<leader>\<down arrow\>** - move to the window below the current window
+- **`<leader>\<window number\>`** - to toggle between windows
+- **`<leader>w`** - to toggle between tmux sessions
+- **`<leader>,`** - to rename a window
+- **`<leader>h`** - split window horizontal
+- **`<leader>v`** - split window vertical
+- **`<leader>c`** - open a new window
+- **`<leader>xy`** - close the current window
+- **`<leader>\<right arrow\>`** - move to the window to the right of the current window
+- **`<leader>\<left arrow\>`** - move to the window to the left of the current window
+- **`<leader>\<up arrow\>`** - move to the window above the current window
+- **`<leader>\<down arrow\>`** - move to the window below the current window
 
 ## tmux pane navigation
-- **C-h** - move to the pane to the left
-- **C-l** - move to the pane to the right
-- **C-j** - move to the pane above
-- **C-k** - move to the pane below
-- **<leader>{** move the current pane left
-- **<leader>}** move the current pane right
+- **`C-h`** - move to the pane to the left
+- **`C-l`** - move to the pane to the right
+- **`C-j`** - move to the pane above
+- **`C-k`** - move to the pane below
+- **`<leader>{`** move the current pane left
+- **`<leader>}`** move the current pane right
 
 ## tmux move windows
-- **C-S-left** - move the window to the left
-- **C-S-right** - move the window to the right
+- **`C-S-left`** - move the window to the left
+- **`C-S-right`** - move the window to the right
 
 ## tmux move panes
-- **<leader>c** - move current pane clockwise
-- **<leader>u** - move current pane counter clockwise
+- **`<leader>c`** - move current pane clockwise
+- **`<leader>u`** - move current pane counter clockwise

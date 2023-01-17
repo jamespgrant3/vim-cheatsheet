@@ -274,3 +274,11 @@
 - **C-k** - move to the pane below
 - **<leader>{** move the current pane left
 - **<leader>}** move the current pane right
+
+## tmux move windows
+- **C-S-left** - move the window to the left
+- **C-S-right** - move the window to the right
+
+## tmux move panes
+- **<leader>c** - move current pane clockwise
+- **<leader>u** - move current pane counter clockwise

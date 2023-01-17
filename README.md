@@ -262,10 +262,10 @@
 - **`<leader>v`** - split window vertical
 - **`<leader>c`** - open a new window
 - **`<leader>xy`** - close the current window
-- **`<leader>\<right arrow\>`** - move to the window to the right of the current window
-- **`<leader>\<left arrow\>`** - move to the window to the left of the current window
-- **`<leader>\<up arrow\>`** - move to the window above the current window
-- **`<leader>\<down arrow\>`** - move to the window below the current window
+- **`<leader><right arrow>`** - move to the window to the right of the current window
+- **`<leader><left arrow>`** - move to the window to the left of the current window
+- **`<leader><up arrow>`** - move to the window above the current window
+- **`<leader><down arrow>`** - move to the window below the current window
 
 ## tmux pane navigation
 - **`C-h`** - move to the pane to the left

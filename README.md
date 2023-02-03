@@ -220,10 +220,15 @@
 - **`D`** - delete a file or directory
 - **`h`** - open the file in a horizontal split
 - **`p`** - preview a file
+- **`<C-w>z`** - close the preview
 - **`R`** - rename a file or directory
 - **`t`** - open the file in a new tab
 - **`qf`** - display file information
 - **`v`** - open the file in a vertical split
+- **`mt`** - assign a target directory, used for move/copy commands
+- **`mf`** - marks a file or directory for action to be taken
+- **`mc`** - copy marked files into target directory
+- **`mm`** - move marked files into target directory
 
 # plugins
 

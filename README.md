@@ -229,6 +229,7 @@
 - **`mf`** - marks a file or directory for action to be taken
 - **`mc`** - copy marked files into target directory
 - **`mm`** - move marked files into target directory
+- **`I`** - toggle header
 
 # plugins
 
